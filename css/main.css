@@ -1,5 +1,56 @@
 /*Mengjiao Qiu personal website style sheet*/
 
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0b1 | 201101 
+   NOTE: WORK IN PROGRESS
+   USE WITH CAUTION AND TEST WITH ABANDON */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+
+/****************************************************/
+
+
+
+
 body {
 	background-color: rgba(255, 240, 244, 1);
 	margin: 8%;
@@ -20,6 +71,8 @@ header img {
 }
 
 h1 {
+	margin-top: 2%;
+	margin-bottom: 1%;
 	color: rgba(195, 86, 115, 0.8);
 	float: left;
 	width: 50%;
@@ -31,18 +84,20 @@ h1 {
 header nav {
 	float: left;
 	margin-top: 1%;
-	width: 74%
+	margin-bottom: 3%;
+	width: 80%
 }
 
 header nav a {
-	color: rgba(195, 86, 115, 0.8);
+	color: rgba(195, 86, 115, 0.5);
 	margin-right: 4%;
-	font-size: 150%;
+	font-size: 120%;
 	font-family: geometry_soft_probold_n, Serif;
 	text-decoration: none;
 }
 
 main {
+	display: block; /*to support IE */
 	background-color: rgba(255,255,255,0.6);
 	font-family: Verdana, Arial, Sans-serif;
 	font-size: 115%;
@@ -72,6 +127,7 @@ main {
 }
 
 footer {
+	line-height: 110%;
 	color: rgba(195, 86, 115, 0.8);
 	font-size: 110%;
 	width: 68%;
@@ -90,6 +146,7 @@ footer {
 
 
 footer small {
+	font-size: 80%;
 	font-family: Verdana, Arial, Sans-serif;
 	/*font-weight: bold;*/
 	display: block;
@@ -98,6 +155,7 @@ footer small {
 }
 
 footer div {
+	font-size: 80%;
 	width: 50%;
 	float: right;
 }
@@ -124,6 +182,7 @@ footer div img:hover {
 
 footer div nav img {
 	width: 7%;
+	margin-top: 2%;
 	margin-right: 1.5%;
 	-webkit-transition: transform 0.5s linear;   /*android chrome ios safari and browsers using the Webkit engine*/
 	-moz-transition: transform 0.5s linear;      /*Firefox and other browsers using Mozilla's browser engine */
@@ -157,7 +216,6 @@ footer div nav img:hover {
 	display: block;
 	position: relative;
 	color:rgba(195, 86, 115, 0.8);
-	font-size: 150%;
 	font-family: geometry_soft_probold_n, Serif;
 	text-decoration: none;
 	float: right;
