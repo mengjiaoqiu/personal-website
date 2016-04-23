@@ -57,7 +57,7 @@ body {
 	padding: 0 8%;
 }
 
-header img {
+header>img {
 	margin-right: 5%;
 	width: 10%;
 	border: 5px solid rgba(195, 86, 115, 0.4);
@@ -70,7 +70,7 @@ header img {
 	
 }
 
-header img:hover {
+header>img:hover {
 	margin-right: 5%;
 	width: 10%;
 	border: 5px double rgba(195, 86, 115, 0.4);
@@ -356,4 +356,14 @@ strong {
 	display: block;
 	width: 30%;
 	float: right;
+}
+
+.CV {
+	opacity: 0.8;
+    width: 5%;
+	margin-left: 5%;
+}
+
+.download {
+	font-size: 40%;
 }
