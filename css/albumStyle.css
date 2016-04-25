@@ -52,7 +52,8 @@ q:before, q:after {
 
 
 body {
-	background-color: rgba(255, 240, 244, 1);
+	background-color: #f1f1f1;
+	/*background-color: rgba(255, 240, 244, 1);*/
 	margin: 8%;
 	padding: 0 8%;
 }
@@ -89,9 +90,10 @@ h1 {
 	color: rgba(195, 86, 115, 1);
 	float: left;
 	width: 50%;
-	font-family: geometry_soft_probold_n, Serif;
+	font-family: Verdana, Arial, Sans-serif;
+	/*font-family: geometry_soft_probold_n, Serif;*/
 	font-size: 250%;
-	text-shadow: 1px 1px rgba(255,255,255,1);
+	/*text-shadow: 1px 1px rgba(255,255,255,1);*/
 }
 
 
@@ -104,11 +106,12 @@ h1 {
 
 .horizonalNav a {
 	color: rgba(195, 86, 115, 1);
-	margin-right: 2.5%;
+	margin-right: 1.6%;
 	font-size: 135%;
-	font-family: geometry_soft_probold_n, Serif;
+	font-family: Verdana, Arial, Sans-serif;
+	/*font-family: geometry_soft_probold_n, Serif;*/
 	text-decoration: none;
-	text-shadow: 1px 1px rgba(255,255,255,1);
+	/*text-shadow: 1px 1px rgba(255,255,255,1);*/
 }
 
 /*main {
@@ -149,7 +152,7 @@ footer {
 	font-family: Verdana, Arial, Sans-serif;
 	margin-left: 16%;
 	padding: 1% 0 1% 2%;
-	background-color: rgba(255,255,255,0.6);
+	background-color: rgba(255,255,255,0.8);
 	border: 2px solid rgba(195, 86, 115, 0.4);
 	-webkit-border-radius: .5em;   /*android chrome ios safari and browsers using the Webkit engine*/
 	-moz-border-radius: .5em;      /*Firefox and other browsers using Mozilla's browser engine */
@@ -214,9 +217,18 @@ footer div nav img:hover {
 	transform:scale(1.5,1.5);
 }
 
+a:link {
+	color: rgba(195, 86, 115, 1);
+}
+
+a:visited {
+	color: rgba(195, 86, 115, 1);
+}
+
 .getInTouch {
 	font-size: 130%;
-	font-family: geometry_soft_probold_n, Serif;
+	font-family: Verdana, Arial, Sans-serif;
+	/*font-family: geometry_soft_probold_n, Serif;*/
 }
 
 .contactIcon {
@@ -229,7 +241,8 @@ footer div nav img:hover {
 	display: block;
 	position: relative;
 	color:rgba(195, 86, 115, 0.8);
-	font-family: geometry_soft_probold_n, Serif;
+	font-family: Verdana, Arial, Sans-serif;
+	/*font-family: geometry_soft_probold_n, Serif;*/
 	text-decoration: none;
 	float: right;
 }
@@ -281,7 +294,7 @@ h3, h4 {
 	clear: left;
 }
 
-main time {
+.time {
 	font-size: 80%;
 	color: #808080;
 }
@@ -341,11 +354,13 @@ strong {
 
 .verticalNav a {
 	margin: 20% 0;
-	padding: 5% 0 5% 5%;
+	padding: 5%;
+	text-align: center;
 	display: block;
 	color: rgba(195, 86, 115, 1);
 	font-size: 115%;
-	font-family: geometry_soft_probold_n, Serif;
+	font-family: Verdana, Arial, Sans-serif;
+	/*font-family: geometry_soft_probold_n, Serif;*/
 	text-decoration: none;
 }
 
@@ -355,7 +370,8 @@ strong {
 	color: rgba(255, 255, 255, 1);
 	background-color: rgba(195, 86, 115, 0.3);
 	font-size: 115%;
-	font-family: geometry_soft_probold_n, Serif;
+	font-family: Verdana, Arial, Sans-serif;
+	/*font-family: geometry_soft_probold_n, Serif;*/
 	text-decoration: none;
 	-webkit-border-radius: .2em;   /*android chrome ios safari and browsers using the Webkit engine*/
 	-moz-border-radius: .5em;      /*Firefox and other browsers using Mozilla's browser engine */
@@ -432,7 +448,8 @@ figcaption {
 	color: rgba(255, 255, 255, 1);
 	background-color: rgba(195, 86, 115, 0.3);
 	font-size: 115%;
-	font-family: geometry_soft_probold_n, Serif;
+	font-family: Verdana, Arial, Sans-serif;
+	/*font-family: geometry_soft_probold_n, Serif;*/
 	text-decoration: none;
 	
 }
