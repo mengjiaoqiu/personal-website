@@ -439,14 +439,15 @@ mark {
 	margin: 2%;
 	padding: 0 2%;
     }
-}
-
-@media all and (max-width:1125px){
-	body {
-	background-color: #f1f1f1;
-	/*background-color: rgba(255, 240, 244, 1);*/
-	margin: 1%;
-	padding: 0 1%;
+	
+	.horizonalNav a {
+	color: rgba(195, 86, 115, 1);
+	margin-right: 1.6%;
+	font-size: 115%;
+	font-family: Verdana, Arial, Sans-serif;
+	/*font-family: geometry_soft_probold_n, Serif;*/
+	text-decoration: none;
+	/*text-shadow: 1px 1px rgba(255,255,255,1);*/
     }
 }
 
@@ -457,7 +458,18 @@ mark {
 	margin: 1%;
 	padding: 0 1%;
     }
+	
+	.horizonalNav a {
+	color: rgba(195, 86, 115, 1);
+	margin-right: 1.6%;
+	font-size: 100%;
+	font-family: Verdana, Arial, Sans-serif;
+	/*font-family: geometry_soft_probold_n, Serif;*/
+	text-decoration: none;
+	/*text-shadow: 1px 1px rgba(255,255,255,1);*/
+    }
 }
+
 
 @media all and (max-width:1000px){
 	h1 {
@@ -474,8 +486,8 @@ mark {
 	
 	.horizonalNav a {
 	color: rgba(195, 86, 115, 1);
-	margin-right: 1.6%;
-	font-size: 100%;
+	margin-right: 1.3%;
+	font-size: 90%;
 	font-family: Verdana, Arial, Sans-serif;
 	/*font-family: geometry_soft_probold_n, Serif;*/
 	text-decoration: none;
@@ -504,7 +516,7 @@ mark {
 	
 	.horizonalNav a {
 	color: rgba(195, 86, 115, 1);
-	margin-right: 1.6%;
+	margin-right: 1.1%;
 	font-size: 85%;
 	font-family: Verdana, Arial, Sans-serif;
 	/*font-family: geometry_soft_probold_n, Serif;*/
@@ -521,7 +533,7 @@ mark {
 	}
 }
 
-@media all and (max-width:700px){
+/*@media all and (max-width:700px){
 	h1 {
 	margin-top: 2%;
 	margin-bottom: 1%;
@@ -529,9 +541,9 @@ mark {
 	float: left;
 	width: 50%;
 	font-family: Verdana, Arial, Sans-serif;
-	/*font-family: geometry_soft_probold_n, Serif;*/
+	
 	font-size: 160%;
-	/*text-shadow: 1px 1px rgba(255,255,255,1);*/
+
     }
 	
 	.horizonalNav a {
@@ -539,9 +551,9 @@ mark {
 	margin-right: 1.6%;
 	font-size: 70%;
 	font-family: Verdana, Arial, Sans-serif;
-	/*font-family: geometry_soft_probold_n, Serif;*/
+
 	text-decoration: none;
-	/*text-shadow: 1px 1px rgba(255,255,255,1);*/
+
     }
 	
 	main {
@@ -566,10 +578,10 @@ mark {
 	padding: .2% .5%;
 	font-size: 60%;
    }
-}
+}*/
 /*for mobile, from research the biggest phone is iphone 6+ 1242px width,change content*/
 
-@media all and (max-width:530px){
+@media all and (max-width:768px){
 	
 	header>img {
 	display: none;
@@ -630,7 +642,7 @@ mark {
 	
 }
 
-@media all and (max-width:390px){
+@media all and (max-width:480px){
 	.cat {
 		display: none;
 	}
