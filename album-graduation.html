@@ -11,6 +11,7 @@
    <link rel="icon" type="image/png" href="img/kitty1.png"/>
    <link rel="stylesheet" type="text/css" href="css/albumStyle.css">
    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <link href="css/lightbox.css" rel="stylesheet">
 </head>
 <body>
   <a id="top" href="#bottom" class="gotoBottom"><i class="material-icons" style="font-size:50px; color:rgba(195, 86, 115, 0.8);">expand_more</i>Go to bottom</a>
@@ -34,35 +35,35 @@
 	</aside>
 	<div class="text">
       <figure>
-        <img src="img/graduation1.jpg" alt="graduation photo">
+        <a href="img/graduation1.jpg" data-lightbox="image1" data-title="Master's Graduation"><img src="img/graduation1.jpg" alt="graduation photo"></a>
 		<figcaption>Master's Graduation</figcaption>
       </figure>
 	  <figure>
-        <img src="img/graduation2.jpg" alt="graduation photo">
+        <a href="img/graduation2.jpg" data-lightbox="image2" data-title="Master's Graduation"><img src="img/graduation2.jpg" alt="graduation photo"></a>
 		<figcaption>Master's Graduation</figcaption>
       </figure>
 	  <figure>
-        <img src="img/graduation3.jpg" alt="graduation photo">
+        <a href="img/graduation3.jpg" data-lightbox="image3" data-title="Master's Graduation"><img src="img/graduation3.jpg" alt="graduation photo"></a>
 		<figcaption>Master's Graduation</figcaption>
       </figure>
 	  <figure>
-        <img src="img/graduation4.jpg" alt="graduation photo">
+        <a href="img/graduation4.jpg" data-lightbox="image4" data-title="Master's Graduation"><img src="img/graduation4.jpg" alt="graduation photo"></a>
 		<figcaption>Master's Graduation</figcaption>
       </figure>
 	  <figure>
-        <img src="img/graduation5.jpg" alt="graduation photo">
+        <a href="img/graduation5.jpg" data-lightbox="image5" data-title="Bachelor's Graduation"><img src="img/graduation5.jpg" alt="graduation photo"></a>
 		<figcaption>Bachelor's Graduation</figcaption>
       </figure>
 	  <figure>
-        <img src="img/graduation6.jpg" alt="graduation photo">
+        <a href="img/graduation6.jpg" data-lightbox="image6" data-title="Bachelor's Graduation"><img src="img/graduation6.jpg" alt="graduation photo"></a>
 		<figcaption>Bachelor's Graduation</figcaption>
       </figure>
 	  <figure>
-        <img src="img/graduation7.jpg" alt="graduation photo">
+        <a href="img/graduation7.jpg" data-lightbox="image7" data-title="Bachelor's Graduation"><img src="img/graduation7.jpg" alt="graduation photo"></a>
 		<figcaption>Bachelor's Graduation</figcaption>
       </figure>
 	  <figure>
-        <img src="img/graduation8.jpg" alt="graduation photo">
+        <a href="img/graduation8.jpg" data-lightbox="image8" data-title="Bachelor's Graduation"><img src="img/graduation8.jpg" alt="graduation photo"></a>
 		<figcaption>Bachelor's Graduation</figcaption>
       </figure>
     </div>
@@ -81,7 +82,11 @@
 	</div>
   </footer>
   <a id="bottom" href="#top" class="gotoTop"><i class="material-icons" style="font-size:50px; color:rgba(195, 86, 115, 0.8);">expand_less</i>Go to top</a>
-</body>
+
+  <!--lightbox plugin---->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="js/lightbox.js"></script>
+  </body>
 <p class="validate">
   <!--<a href="http://jigsaw.w3.org/css-validator/check/referer">-->
     <img style="border:0;width:8%"
