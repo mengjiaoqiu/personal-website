@@ -9,7 +9,7 @@ html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
+smscreen, strike, strong, sub, sup, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
@@ -161,7 +161,7 @@ main {
 
 
 footer {
-	line-height: 110%;
+	line-height: 120%;
 	color: rgba(195, 86, 115, 1);
 	font-size: 110%;
 	width: 68%;
@@ -179,7 +179,7 @@ footer {
 }
 
 
-footer small {
+footer small{
 	font-size: 80%;
 	font-family: Verdana, Arial, Sans-serif;
 	/*font-weight: bold;*/
@@ -245,6 +245,7 @@ footer a:visited {
 	font-family: Verdana, Arial, Sans-serif;
 	/*font-family: geometry_soft_probold_n, Serif;*/
 }
+
 
 .contactIcon {
 	opacity: 0.2;
@@ -414,7 +415,7 @@ mark {
 
 /*resposive design*/
 
-@media all and (max-width:1530px){
+@media screen and (max-width:1530px){
 	body {
 	background-color: #f1f1f1;
 	/*background-color: rgba(255, 240, 244, 1);*/
@@ -423,7 +424,7 @@ mark {
     }
 }
 
-@media all and (max-width:1353px){
+@media screen and (max-width:1353px){
 	body {
 	background-color: #f1f1f1;
 	/*background-color: rgba(255, 240, 244, 1);*/
@@ -432,7 +433,7 @@ mark {
     }
 }
 
-@media all and (max-width:1222px){
+@media screen and (max-width:1222px){
 	body {
 	background-color: #f1f1f1;
 	/*background-color: rgba(255, 240, 244, 1);*/
@@ -451,7 +452,7 @@ mark {
     }
 }
 
-@media all and (max-width:1125px){
+@media screen and (max-width:1125px){
 	body {
 	background-color: #f1f1f1;
 	/*background-color: rgba(255, 240, 244, 1);*/
@@ -471,7 +472,7 @@ mark {
 }
 
 
-@media all and (max-width:1000px){
+@media screen and (max-width:1000px){
 	h1 {
 	margin-top: 2%;
 	margin-bottom: 1%;
@@ -495,13 +496,13 @@ mark {
     }
 }
 
-@media all and (max-width:850px){
+@media screen and (max-width:850px){
     .gotoBottom, .gotoTop {
 	display: none;
 	}
 }
 
-@media all and (max-width:800px){
+@media screen and (max-width:800px){
 	h1 {
 	margin-top: 2%;
 	margin-bottom: 1%;
@@ -533,7 +534,7 @@ mark {
 	}
 }
 
-/*@media all and (max-width:700px){
+/*@media screen and (max-width:700px){
 	h1 {
 	margin-top: 2%;
 	margin-bottom: 1%;
@@ -565,7 +566,7 @@ mark {
 	}
 }
 
-@media all and (max-width: 600px) {
+@media screen and (max-width: 600px) {
 	main a {
 	background-color: rgba(195, 86, 115, .5);
 	color: rgba(255,255,255,1);
@@ -581,7 +582,7 @@ mark {
 }*/
 /*for mobile, from research the biggest phone is iphone 6+ 1242px width,change content*/
 
-@media all and (max-width:768px){
+@media screen and (max-width:768px){
 	
 	header>img {
 	display: none;
@@ -611,6 +612,7 @@ mark {
 	/*font-family: geometry_soft_probold_n, Serif;*/
 	text-decoration: none;
 	/*text-shadow: 1px 1px rgba(255,255,255,1);*/
+	margin-bottom: 10px;
     }
 	
 	main {
@@ -632,7 +634,7 @@ mark {
    }
 	
 	footer {
-		text-align: center;
+		
 		width: 98%;
 		margin: 0;
 		border: none;
@@ -642,7 +644,7 @@ mark {
 	
 }
 
-@media all and (max-width:480px){
+@media screen and (max-width:480px){
 	.cat {
 		display: none;
 	}
@@ -669,8 +671,8 @@ mark {
    }
 }
 
-@media all and (max-width:270px){
-	footer small {
+@media screen and (max-width:270px){
+	footer smscreen {
 		display: none;
 	}
 	

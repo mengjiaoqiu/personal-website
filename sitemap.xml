@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://www.mengjiaoqiu.com/</loc>
+  <lastmod>2016-06-19T19:20:19+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://www.mengjiaoqiu.com/index.html</loc>
+  <lastmod>2016-06-19T19:20:19+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.mengjiaoqiu.com/education.html</loc>
+  <lastmod>2016-06-19T18:20:18+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.mengjiaoqiu.com/work.html</loc>
+  <lastmod>2016-06-19T18:20:18+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.mengjiaoqiu.com/award.html</loc>
+  <lastmod>2016-06-19T18:20:18+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.mengjiaoqiu.com/volunteer.html</loc>
+  <lastmod>2016-06-19T18:20:18+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.mengjiaoqiu.com/album-volunteer.html</loc>
+  <lastmod>2016-06-19T18:57:35+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.mengjiaoqiu.com/download/CV_MengjiaoQiu.pdf</loc>
+  <lastmod>2016-04-22T14:41:25+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.mengjiaoqiu.com/album-graduation.html</loc>
+  <lastmod>2016-06-19T18:20:18+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.mengjiaoqiu.com/album-pet.html</loc>
+  <lastmod>2016-06-19T18:20:18+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+</urlset>

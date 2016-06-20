@@ -145,7 +145,7 @@ h1 {
 }
 
 footer {
-	line-height: 110%;
+	line-height: 120%;
 	color: rgba(195, 86, 115, 1);
 	font-size: 110%;
 	width: 68%;
@@ -449,6 +449,11 @@ figcaption {
 	
 }
 
+main {
+		width: 98.7%;
+		margin: 5% 0;
+	}
+
 /*resposive design*/
 
 @media all and (max-width:1530px){
@@ -566,7 +571,7 @@ figcaption {
 	}
 	
 	footer {
-		font-size: 90%;
+		font-size: 100%;
 	}
 }
 
@@ -603,16 +608,16 @@ figcaption {
 	/*font-family: geometry_soft_probold_n, Serif;*/
 	text-decoration: none;
 	/*text-shadow: 1px 1px rgba(255,255,255,1);*/
+	margin-bottom: 10px;
     }
 	
 	main {
-		width: 87%;
+		width: 80%;
 		margin: 5% 3%;
 	}
 	
 	
 	footer {
-		text-align: center;
 		width: 98%;
 		margin: 0;
 		border: none;
@@ -629,10 +634,11 @@ figcaption {
 	}
 	
 	.verticalNav a {
-		margin: 0 3%;
-		padding: 3%;
-		width: 21%;
-		font-size: 75%;
+		display: inline-block;
+		margin: 0 !important;
+		padding: 3% 0;
+		width: 30%;
+		font-size: 95%;
 	}
 	
 	.text {
